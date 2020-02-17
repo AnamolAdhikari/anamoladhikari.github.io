@@ -1,0 +1,349 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Knewave');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Chela+One');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+#home
+{
+	background:url(Img/5788643-nepal-wallpaper-hd.jpg);
+	background-size:cover;
+	
+}
+.home
+{
+	min-height:670px;
+	background:rgba(0,0,0,0.6);
+}
+.bg-light
+{
+    background-color:transparent !important;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand
+{
+	color:#FFF;
+	margin-left:15px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover
+{
+    color:#F60;
+}
+.navbar-brand
+{
+	padding-top:20px;
+	
+}
+
+.navbar-brand span
+{
+	
+	font-family: 'Lobster', cursive;
+	font-size:38px;
+	color:#F60;
+}
+.navbar-brand span:hover
+{
+	color:#F60;
+}
+navbar-light .navbar-brand:focus, .navbar-light .navbar-brand 
+{
+    color:#fff;
+    margin-left: 15px;
+	font-size:18px;
+}
+.fonts
+{
+	padding-top:20px;
+	color:#fff;
+	margin-right:20px;
+	font-size:20px;
+}
+.navbar-brand fonts
+{
+	font-family: 'Knewave', cursive;
+}
+.text
+{
+	color:#fff;
+	padding-top:90px;
+}
+.text h4
+{
+	font-size:30px;
+}
+.text h2
+{
+	font-size:76px;
+	padding-top:20px;
+}
+.text h4 span
+{
+	font-family: 'Chela One', cursive;
+	font-size:40px;	
+	text-decoration:underline;	
+	color:#fff;
+}
+.text h2 span
+{
+	font-family: 'Chela One', cursive;
+	color:#fff;
+	
+}
+.text p
+{
+	padding-top:40px;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size:25px;
+}
+
+
+
+.about h1
+{
+	padding-top:20px;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration:underline;
+}
+.text1
+{
+	padding-top:70px;
+	color:#999;
+}
+.text1 h5
+{
+	color:#000;
+	
+	padding-bottom:30px;
+	font-size:25px;
+
+}
+.text1 p span
+{
+	color:#333;
+	font-family: 'Permanent Marker', cursive;
+	font-size:27px;
+	text-decoration:underline;
+}
+.text1 p
+{
+	font-family: 'Dancing Script', cursive;
+	font-size:22px;
+	color:#333;
+}
+.info1
+{
+	margin-left:280px;
+	margin-top:-70px;
+	
+}
+.info2
+{
+	margin-top:90px;
+}
+.info2 strong
+{
+	color:#333;
+}
+.info1 strong
+{
+	color:#333;
+}
+.btn1
+{
+	margin-top:35px;
+	margin-right:20px;
+}
+.btn2
+{
+	margin-top:35px;
+}
+.passion
+{
+	background:#f7f7f7;
+	min-height:400px;
+}
+.fnt h3
+{
+	color:black;
+	font-weight:bold;
+	padding-top:60px;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+}
+.fnt p
+{
+	padding-top:30px;
+	font-family:Poppins;
+	font-size:14px;
+}
+.services h1
+{
+	padding-top:40px;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration:underline;
+}
+.desgins
+{
+	font-size:40px;
+	color:#1957f3;
+}
+.desgins:hover
+{
+	color:#F90;
+}
+.card-text
+{
+	padding-top:0px;
+}
+.prdsgin 
+{
+	color:#777799;
+	margin-top:30px;
+}
+
+.xd
+{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+}
+.xd:hover
+{
+	color:#F90;
+}
+.card
+{
+	margin-top:100px;
+	border:200px;
+}
+#banner1
+{
+	
+	background:url(Img/bg-3.jpg);
+	min-height:200px;
+}
+.banner1
+{
+	background-size:cover;
+	min-height:370px;
+	background:rgba(0,0,0,0.7);
+	
+}
+.bnr
+{
+	padding-top:80px;
+	
+}
+
+.bnr h1
+{
+	color:#fff;
+	font-size:50px;
+	font-family: 'Merienda', cursive;
+}
+.btn3
+{
+	margin-left:500px;
+	margin-top:80px;
+}
+.mywrk
+{
+	color:black;
+	padding-top:30px;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration:underline;	
+	
+}
+.slider
+{
+	padding-top:10px;
+}
+.w-100 
+{
+    width:100% !important;
+}
+.d-block
+{
+	height:600px;
+}
+
+#final
+{
+	background:url(Img/bg-2.jpg);
+	background-size:cover;
+	
+	
+}
+.final
+{
+	background:rgba(0,0,0,0.6);
+	min-height:700px;
+}
+.contctme h1
+{
+	color:black;
+	padding-top:10px;
+	font-family: 'Permanent Marker', cursive;
+	text-decoration:underline;	
+}
+.icon1
+{
+	padding-top:130px;
+	padding-left:140px;
+	font-size:60px;
+	color:white;
+}
+.icon2
+{
+	padding-top:130px;
+	padding-left:160px;
+	font-size:60px;
+	color:white;
+}
+.heads h5
+{
+	padding-left:120px;
+	padding-top:20px;
+	
+}
+.heads p
+{
+	padding-left:60px;
+}
+.heads
+{
+	color:#fff;
+
+}
+.heads:hover
+{
+	color:orange;
+}
+.name1
+{
+	padding-top:20px;
+}
+.email1
+{
+	padding-left:50px;
+	padding-top:20px;
+}
+.message1
+{
+	padding-top:50px;
+}
+.xx
+{
+	padding-top:50px;
+}
+.crz
+{
+	margin-top:20px;
+}
