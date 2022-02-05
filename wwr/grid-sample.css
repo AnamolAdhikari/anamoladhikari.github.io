@@ -1,0 +1,28 @@
+body {
+    background-color: yellow;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.cuteness {
+    background-color: orange;
+}
+
+.destruction {
+    background-color: red;
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.care {
+    background-color: purple;
+    grid-column: 2/4;
+}
+
+.destruction div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
