@@ -10,7 +10,9 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
-
+#hero-img{
+    width: 100%;
+}
 #hero-msg h1 {
     text-align: center;
 }
