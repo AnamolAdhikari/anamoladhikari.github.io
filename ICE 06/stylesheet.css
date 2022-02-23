@@ -1,0 +1,37 @@
+.header{
+    display: grid;
+    grid-template-columns: 249px 0fr;
+    gap: 33px;
+}
+.context
+{
+    text-align: left;
+}
+.btn{
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+    padding: 8px 8px 8px 8px;
+    margin-left: 15%;
+    margin-top: .5%;
+}
+#email{
+    display: block;
+    margin: 5px;
+    padding-right: 140px;
+}
+#name{
+    display: block;
+    margin: 5px;
+    padding-right: 140px;
+}
+.btn:hover{
+    background-color: red;
+}
+label{
+    font-size: large;
+    max-width: 300px;
+    text-align: center;
+}
