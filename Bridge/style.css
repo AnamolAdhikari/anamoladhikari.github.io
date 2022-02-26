@@ -5,6 +5,10 @@
     margin: 0 auto;
 }
 
+.logo {
+    border-radius: 50px;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -328,16 +332,18 @@ footer {
 .pillar {
     background-color: #cd853f;
     text-align: center;
-    color: whitesmoke;
+    color: black;
+    font-family: pacifico;
     font-family: sans-serif;
     width: 300px;
     height: 35px;
     margin: 0 auto;
     margin-top: 10px;
+    border-radius: 80px;
 }
 
 .pillar p {
-    color: blue;
+    color: black;
     text-align: center;
     padding: 5px;
 }
