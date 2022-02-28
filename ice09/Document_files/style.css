@@ -1,0 +1,22 @@
+.img{
+    
+    
+    width:400px;
+    height: 400px;
+    
+
+}
+.banner
+{
+    text-align: center;
+    background-color: white;
+}
+body{
+    
+    background-color: black;
+}
+.txt{
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 25px;
+}
