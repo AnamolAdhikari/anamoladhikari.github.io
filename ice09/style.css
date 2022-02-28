@@ -5,6 +5,8 @@
     width:300px;
     height: 300px;
     border-radius: 20px 20px 0px 0px;
+    background-position: center;
+
 }
 .banner
 {
@@ -22,7 +24,8 @@ body{
     text-align: center;
     padding-left: 1px;
     padding-bottom: 20px;
-    font-family: Fredoka;
+    font-family:Trebuchet MS;
+    color: #938793;
     
 }
 
@@ -43,6 +46,7 @@ body{
 .p
 {
     border-right: 1px solid grey;
+    
 
     
 }
