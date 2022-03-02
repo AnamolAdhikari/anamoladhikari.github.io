@@ -1,0 +1,33 @@
+body, h1, h2, h3, h4, h5, h6, ul, li, p{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #ced7e4;
+    
+    
+}
+h2{
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+main{
+    display: grid;
+    grid-template-columns: 250px 460px;
+    gap:68px;
+    font-size: 19px;
+    margin: 10px auto;
+    width: 808px;
+    color:#37455e;
+}
+main ul{
+    list-style: none;
+}
+
+a:link, a:visited, a:hover, a:active{
+    color:#5896cf;
+}
+main h2{
+    line-height: 35px;
+}
