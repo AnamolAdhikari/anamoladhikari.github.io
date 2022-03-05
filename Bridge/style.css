@@ -5,10 +5,6 @@
     margin: 0 auto;
 }
 
-.logo {
-    border-radius: 50px;
-}
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -79,7 +75,7 @@ main section {
 /** Main colors**/
 
 body {
-    background-color: #e7e7e7;
+    background-color: white;
     font-family: Comic Neue;
     font-size: 22px;
     margin: 0;
@@ -87,13 +83,13 @@ body {
 }
 
 header {
-    background-color: #3a3a3ae0;
+    background-color: #264653;
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 nav a:hover {
-    background-color: #fb8500;
+    background-color: #F4A261;
     color: white;
 }
 
@@ -115,11 +111,11 @@ nav a:hover {
 }
 
 #background {
-    background-color: #FFE8D1;
+    background-color: white;
 }
 
 .msg {
-    background-color: peru;
+    background-color: #E9C46A;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -128,7 +124,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: pink;
+    background-color: white;
 }
 
 .home-title {
@@ -180,10 +176,19 @@ footer h3 a:hover {
     text-decoration: none;
 }
 
-h2 {
+h3 {
     margin: 0;
 }
-
+h2{
+    background-color: #F4A261;
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 250px;
+    text-align: center;
+    border-radius: 50px;
+    
+}
 #logo_link {
     padding-top: 5px;
     justify-self: center;
@@ -241,7 +246,7 @@ footer {
 }
 
 .card-img {
-    border: 10px solid rgba(184, 124, 14, 0.911);
+    border: 10px solid #F4A261;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
@@ -254,6 +259,10 @@ footer {
 main section img {
     box-sizing: border-box;
 }
+.intro h2{
+    text-align: center;
+    margin-left: 60px;
+}
 
 footer {
     background-color: #3a3a3ae0;
@@ -263,6 +272,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 
 @media screen and (max-width: 900px) {
     #hero,
@@ -312,32 +322,31 @@ footer {
 }
 
 .intro {
-    color: red;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .s {
-    text-align: center;
     justify-content: space-around;
     margin-top: 50px;
+    margin: 30px;
 }
 
 #h {
     text-align: center;
-    background-color: red;
+    background-color: black;
+    font-family: Arial, elvetica, sans-serif;
     height: max-content;
 }
 
 .pillar {
-    background-color: #cd853f;
+    background-color: #E76F51;
     text-align: center;
-    color: black;
+    color: white;
     font-family: pacifico;
     font-family: sans-serif;
-    width: 300px;
-    height: 35px;
-    margin: 0 auto;
     margin-top: 10px;
     border-radius: 80px;
 }
@@ -357,8 +366,8 @@ footer {
 }
 
 .foot {
-    background-color: #4f4f4f;
-    margin-top: 10px;
+    background-color: #264653;
     width: auto;
-    height: 60px;
+    display: grid;
+    grid-template-columns: auto;
 }
