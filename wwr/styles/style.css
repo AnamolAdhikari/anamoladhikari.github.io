@@ -284,4 +284,61 @@ footer {
     footer {
         margin-top: 25px;
     }
+    
+
+    
+}
+.blog1{
+    color: red;
+    text-align: center;
+    color: black;
+    font-family: permanent marker;
+    margin-bottom: 70px;
+  
+   
+}
+.blgtxt{
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap:10px;
+    text-align: center;
+    padding-top: 50px;
+}
+.blgimg{
+    height: 10px;
+   
+}
+
+#blgimg{
+    width: 700px;
+    margin-left: 20px;
+}
+
+
+
+
+.blog2{
+    color: red;
+    text-align: center;
+    color: black;
+    font-family: permanent marker;
+    
+   
+}
+.blgtxt1{
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    gap:70px;
+    text-align: center;
+    padding-top: 70px;
+}
+.blgimg1{
+    height: 10px;
+   
+}
+
+#blgimg1{
+    width: 900px;
+    margin-right: 20px;
+  
 }
