@@ -1,0 +1,101 @@
+
+.ice1{
+    text-align: center;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 15px;
+    max-width: 400px;
+    margin-left:600px;
+}
+.ice2{
+    text-align: center;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  
+    max-width: 400px;
+    margin-left:600px;
+}
+.img1{
+    max-width: 600px;
+    max-height: 200px;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4781d5;
+    outline:2px solid gray;
+    outline-offset: 2px;
+    border-radius: 10px;
+  }
+  .ice3{
+    text-align: center;
+    border: 1px solid red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:15px;
+    max-width: 400px;
+    margin-left:600px;
+}
+.button2{
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+    background-color: #4781d5;
+    border-radius: 5px;
+    padding-left:60px;
+  }
+
+  .thumbs
+  {
+    position: absolute;
+    left: 710px;
+    top: 1183px;
+    z-index: 1;
+    color: white;
+
+  
+  }
+
+
+  .thumbs1
+  {
+    position: absolute;
+    left: 872px;
+    top: 1187px;
+    z-index: 1;
+    color: white;
+
+  
+  }
+
+  .button3{
+    border: none;
+    color: white;
+    padding: 10px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 5px;
+    padding-left:60px;
+  }
+
+  
