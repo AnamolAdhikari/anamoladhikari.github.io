@@ -15,7 +15,7 @@ button {
   min-height: 100vh;
   width: 100%;
   background-color: #485461;
-  background-image: linear-gradient(135deg, #485461 0%, red 74%);
+  background-image: linear-gradient(135deg, #3A86FF 0%, #FB5607 74%);
   overflow-x: hidden;
   transform-style: preserve-3d;
 }
@@ -298,4 +298,171 @@ ul {
 
 .container.active .main:hover {
   transform: perspective(1300px) rotateY(20deg) translateZ(340px) scale(0.5);
+}
+
+/**
+Home Navigation
+**/
+.navigation {
+  background-color: #ee9b00;
+  overflow: hidden;
+}
+
+.navigation input[type=text] {
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 26px;
+  font-size: 17px;
+}
+.navigation .right{
+  float: right;
+}
+.logo{
+  float:left;
+  width: 90px;
+}
+/* Style the links inside the navigation bar */
+.navigation a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+#hero-img{
+  width: 1680px;
+}
+#hero-box{
+  grid-column: 1/4;
+  grid-row: 1/3;
+  z-index: -1;
+}
+#hero-msg{
+  grid-column:2/3;
+  grid-row: 1/2;
+  margin-top: 100px;
+}
+#hero-msg h1 {
+  text-align: center;
+  color: black;
+}
+#hero-msg h4{
+  color: white;
+}
+.blog1{
+  color: red;
+  text-align: center;
+  color: black;
+  font-family: permanent marker;
+  margin-bottom: 70px;
+
+ 
+}
+.blgtxt{
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  gap:10px;
+  text-align: center;
+  padding-top: 50px;
+}
+.blgimg{
+  height: 10px;
+ 
+}
+
+#blgimg{
+  width: 900px;
+  margin-left: 20px;
+}
+
+
+
+
+.blog2{
+  color: red;
+  text-align: center;
+  color: black;
+  font-family: permanent marker;
+  
+ 
+}
+.blgtxt1{
+  display: grid;
+  grid-template-columns: 2fr 1fr ;
+  gap:70px;
+  text-align: center;
+  padding-top: 70px;
+}
+.blgimg1{
+  height: 10px;
+ 
+}
+
+#blgimg1{
+  width: 900px;
+  margin-right: 20px;
+
+}
+#ban1-img{
+margin-top: 10px;
+margin-bottom: 0px;
+width: 1680px;
+}
+
+.footer {
+  background-color: #ee9b00;
+  overflow: hidden;
+  
+}
+
+.footer input[type=text] {
+  float: left;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 26px;
+  font-size: 17px;
+}
+.footer .right{
+  float: right;
+}
+.logo{
+  float:left;
+  width: 90px;
+}
+/* Style the links inside the navigation bar */
+.footer a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.footer a:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.pay{
+  padding-top: 12px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+.home-grid{
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
 }
