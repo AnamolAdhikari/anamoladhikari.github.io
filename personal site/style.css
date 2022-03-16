@@ -373,7 +373,7 @@ Home Navigation
   grid-template-columns: 1fr 2fr ;
   gap:10px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 15px;
 }
 .blgimg{
   height: 10px;
@@ -407,7 +407,9 @@ Home Navigation
   height: 10px;
  
 }
-
+#search{
+  width: 350px;
+}
 #blgimg1{
   width: 900px;
   margin-right: 20px;
@@ -415,13 +417,14 @@ Home Navigation
 }
 #ban1-img{
 margin-top: 10px;
-margin-bottom: 0px;
+margin-bottom: -6px;
 width: 1680px;
 }
 
 .footer {
   background-color: #ee9b00;
   overflow: hidden;
+
   
 }
 
@@ -438,7 +441,8 @@ width: 1680px;
 }
 .logo{
   float:left;
-  width: 90px;
+  width: 60px;
+  height: 54px;
 }
 /* Style the links inside the navigation bar */
 .footer a {
@@ -457,8 +461,8 @@ width: 1680px;
   color: black;
 }
 .pay{
-  padding-top: 12px;
-  padding-right: 200px;
+  padding-top: 0px;
+  padding-right: 33px;
   text-align: center;
 }
 
