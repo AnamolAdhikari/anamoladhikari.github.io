@@ -3,6 +3,7 @@
 * {
   padding: 0;
   margin: 0;
+  margin-top: 2px;
   box-sizing: border-box;
 }
 
@@ -306,6 +307,9 @@ Home Navigation
 .navigation {
   background-color: #ee9b00;
   overflow: hidden;
+  margin: -20px auto;
+  padding-top: 14px;
+  
 }
 
 .navigation input[type=text] {
@@ -329,7 +333,7 @@ Home Navigation
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 18px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -340,7 +344,10 @@ Home Navigation
   color: black;
 }
 #hero-img{
-  width: 1680px;
+  width: 100%;
+  padding-top: 16px;
+  margin-top: 2px;
+
 }
 #hero-box{
   grid-column: 1/4;
@@ -373,7 +380,7 @@ Home Navigation
   grid-template-columns: 1fr 2fr ;
   gap:10px;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 0px;
 }
 .blgimg{
   height: 10px;
@@ -469,4 +476,108 @@ width: 1680px;
 .home-grid{
   display: grid;
   grid-template-columns: repeat(10,1fr);
+}
+
+/* CSS for cards */
+.grid-container {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 20px;
+  grid-template-columns: auto auto auto;
+  background-color: #ffff;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: orangered;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 40px;
+  text-align: center;
+  padding: -10px -10px -10px -10px; 
+}
+
+body{
+  background-color: #efefef;
+  font-family: 'Roboto', sans-serif;
+}
+.photocard{
+  max-width: 500px;
+  color:#64656f;
+  margin: 0 auto;
+  background-color: #ffff;
+
+}
+
+.photocard header{
+  display: grid;
+  padding:0 15px;
+  gap:10px;
+  grid-template-columns: 1fr 8fr 4fr 1fr;
+  align-items: center;
+}
+
+.photocard header img{
+  width:35px;
+  border-radius: 100%;
+  padding:10px 0; 
+}
+.photocard .user{
+  font-weight: bold;
+}
+.photocard .time{
+  color: #e4e3e7;
+  text-align: right;
+  font-size: 0.85em;
+}
+.photocard .menu{
+  text-align: right;
+}
+.photocard a:link, .photocard a:visited, .photocard a:hover, .photocard a:active { 
+
+  color: #bfbfbf;
+  text-decoration: none;
+}
+
+.photocard a:hover{
+  color:#64656f;
+}
+.photocard img{
+  width: 100%;
+}
+
+.photocard footer{
+  display:grid;
+  grid-template-columns: 1fr 1fr 4fr 5fr;
+  grid-template-rows: 40px;
+  justify-items: left;
+  align-items: center;
+  gap:6px;
+  padding:0 15px;
+}
+.photocard .love{
+  justify-self: end;
+  font-weight: bold;
+
+}
+.photcard footer i{
+
+  font-size: 0.85em;
+}
+.button-box {
+  text-align: center;
+}
+.book
+  {
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    padding: 2px 20px;
+   
+    border-radius: 5px;
+}
+.book:hover {
+    background-color: green;
+    color: black;
 }
