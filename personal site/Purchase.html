@@ -1,44 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purchase</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-    <div class="navigation">
-        <img class="logo" src="images/logo.png" alt="Game Site Logo">
-        <a class="active" href="index.html">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#news">News</a>
-        <div class="right"> 
-            <input type="text" placeholder="Search..">
-            <a href="#news">SignUp</a>
-            <a href="#news">LogIn</a>
-        </div>
-    </div>  
-    <div id="hero">
-        <div id="hero-box">
-            <img id="hero-img" src="images/back.avif" alt="background img">
-        </div>
-    </div>
-    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-    <div class="footer">
-        <img class="logo" src="images/logo.png" alt="Game Site Logo">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#news">News</a>
-        <div class="right"> 
-           <h4 class="pay">Payment Method</h4>
-           <a href = "#">PayPal</a>
-           <a href = "#">Visa</a>
-           <a href = "#">MasterCard</a>
+    <title>Purchasce</title>
+
+    
+  </head>
+  <body class="purchase-body">
+      <header>
+        <div class="topnav" style="background-color: #264653">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <div class="login-container">
+              <form action="/action_page.php">
+                <i
+                  class="fa-solid fa-user"
+                  style="color: orange; font-size: large; padding-right: 3px"
+                ></i>
+                <input type="text" placeholder="Username" name="username" />
+                <i
+                  class="fa-solid fa-key"
+                  style="color: orange; font-size: large; padding-right: 3px"
+                ></i>
+                <input type="text" placeholder="Password" name="psw" />
+                <button type="submit">Login</button>
+              </form>
+            </div>
+          </div>
+      
+          <div class="content">
+                <div class="slideshow-container">
+                  <div class="mySlides fade">
+                    <img src="images/slide1.jpeg" style="width: 100%; height:900px; object-fit: cover;" />
+                  </div>
+        
+                  <div class="mySlides fade">
+                    <img src="images/slide2.jpeg" style="width: 100%; height:900px; object-fit: cover;" />
+                  </div>
+        
+                  <div class="mySlides fade">
+                    <img src="images/slide3.jpeg" style="width: 100%; height:900px; object-fit: cover;" />
+                  </div>
+        
+                  <a class="prev" onclick="plusSlides(-1)">❮</a>
+                  <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
+              </div>
+          <div>
+      </header>
+      <div class="checkout">
+        <h2 class="market">Cart</h2> 
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
         </div>
-    </div>  
-</body>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Purchase" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <p style="font-size: 22px; font-weight: bolder; margin-bottom: -5px;">Cart <span class="price" style="color:black;"><i class="fa fa-shopping-cart"></i> <b>4</b></span></p>
+      
+      <br><img src="/personal site/images/karam.jpg" style="width: 70px; height: 70px;"><span class="price" style="margin-top: -20px;"><br>$150</span></p>
+      <p><img src="/personal site//images/krieg.png" style="width: 70px; height: 70px;"><span class="price" style="margin-top: -20px;"><br>$150</span></p>
+      <p><img src="/personal site/images/nightwish-AK.jpeg" style="width: 70px; height: 70px;"><span class="price" style="margin-top: -20px;"><br>$150</span></p>
+      <p><img src="/personal site/images/butter.jpg" style="width: 70px; height: 70px;"><span class="price" style="margin-top: -20px;"><br>$15</span></p>
+      <hr>
+      <p style="font-size: 22px; font-weight: bolder; margin-top: 15px;">Total <span class="price" style="color:black; margin-top: -5px;"><b>$600</b></span></p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<br>
+
+<div class="team-row">
+  <h2 class="market">Team</h2>
+  <div class="team-column" style="background: #F1FAEE;">
+    <div class="team-card">
+      <img src="/personal site/images/PP.jpeg" alt="Jane" style="width:405px; padding-left:120px;">
+      <div class="team-container">
+        <h2>Anamol Adhikari</h2>
+        <p class="team-title">Web Developer and Student</p>
+        <p>Passionate in learning how to code and create wonderful resposive websites.</p>
+        <a href = "mailto:adh18001@byui.edu">adh18001@byui.edu</a>
+        <p><button class="team-button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="team-column" style="background: #F1FAEE;">
+    <div class="team-card">
+      <img src="/personal site/images/hayesa.jpeg" alt="Mike" style="width:400px; padding-left:200px;" >
+      <div class="team-container">
+        <h2>Adam Hayes</h2>
+        <p class="team-title">Profressor</p>
+        <p>Most amazing and wonderful teacher so far in BYU-I. An honor to be his student.</p>
+        <a href = "mailto:hayesa@byui.edu">hayesa@byui.edu</a>
+        <p><button class="team-button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="team-column" style="background: #F1FAEE;">
+    <div class="team-card">
+      <img src="/personal site/images/kevin.jpeg" alt="John" style="width:433px; padding-left: 150px;">
+      <div class="team-container">
+        <h2>Kevin Castro Chávez</h2>
+        <p class="team-title">Teacher Assistant</p>
+        <p>Best TA so far. Super chill and always ready to help. Hope to find such TA's in future class.</p>
+        <a href = "mailto:kevin.castro.chavez0@gmail.com">kevin.castro.chavez0@gmail.com</a>
+        <p><button class="team-button">Contact</button></p>
+      </div>
+    </div>
+</div>
+</div>
+ <footer style="margin-top: 0px; background-color: #264653;"> 
+        <h3>GAMESTIE &copy; 2022 - Anamol Adhikari</h3>
+        <h3><a href="#siteplan" style="color: white;">Site Plan</a></h3>
+        <h3><a href="#contact"style="color: white;">Contact Us</a></h3>
+        <div class="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a>
+        </div>
+</footer>
+
+    
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+  
+        function plusSlides(n) {
+          showSlides((slideIndex += n));
+        }
+  
+        function currentSlide(n) {
+          showSlides((slideIndex = n));
+        }
+  
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {
+            slideIndex = 1;
+          }
+          if (n < 1) {
+            slideIndex = slides.length;
+          }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+  </body>
 </html>
