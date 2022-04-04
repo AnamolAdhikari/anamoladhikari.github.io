@@ -172,7 +172,7 @@ img {
   border-radius: 1%;
   padding: 10px;
   margin-left: 40px;
-  padding-top: -220px;
+  /*padding-top: -220px;*/
   width: 700px;
 }
 .paragraph1 {
@@ -206,7 +206,7 @@ section {
 /* ICONS */
 .icons {
   float: right;
-  padding-top: -2px;
+  /*padding-top: -2px;*/
   padding: 0px 16px;
 }
 .fa {
@@ -316,7 +316,7 @@ footer {
 .cards1{
   animation-name: cards1;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
+  
   position: relative;
   animation-delay:3s;
 }
@@ -333,7 +333,6 @@ footer {
 .cards2{
   animation-name: cards2;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
   position: relative;
   animation-delay:3s;
 }
@@ -350,7 +349,6 @@ footer {
 .cards3{
   animation-name: cards3;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
   position: relative;
   animation-delay:3s;
 }
@@ -367,7 +365,6 @@ footer {
 .cards4{
   animation-name: cards4;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
   position: relative;
   animation-delay:3s;
 }
@@ -385,7 +382,6 @@ footer {
 .cards5{
   animation-name: cards5;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
   position: relative;
   animation-delay:3s;
 }
@@ -404,7 +400,6 @@ footer {
 .cards6{
   animation-name: cards6;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
   position: relative;
   animation-delay:3s;
 }
@@ -422,7 +417,6 @@ footer {
 .cards7{
   animation-name: cards7;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
   position: relative;
   animation-delay:3s;
 }
@@ -439,7 +433,6 @@ footer {
 .cards8{
   animation-name: cards8;
   animation-duration: 20s;
-  animation-iteration-count: infinite;
   position: relative;
   animation-delay:3s;
 }
@@ -580,7 +573,7 @@ label {
   margin-left: 45%;
   margin-top: 20px;
   border: none;
-  width: 30 0px;
+  width: 30px;
   border-radius: 3px;
   cursor: pointer;
   font-size: 17px;
@@ -654,7 +647,7 @@ span.price {
   background-color: #555;
 }
 .team-row{
-  background-color: #F4A261;
+  background-color: #F1FAEE;
 }
 
 /* On smaller screens, decrease text size */
@@ -666,5 +659,50 @@ span.price {
   }
   .blgtxt {
     height: 100px;
+  }
+}
+@media only screen and (max-width:900px){
+
+  .blog section {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  
+  .blog .section1{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+  .paragraph1{
+    margin-left:35px;
+  }
+  .paragraph{
+    margin-bottom: 80px;
+  }
+  .grid{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    
+  }
+  .cards3, .cards4{
+    margin-top: 10px;
+  }
+  .team-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .team-column{
+    display: grid;
+    grid-template-columns: 1fr ;
+  }
+  .team-column{
+    width: 100%;
+  }
+  .team-card img{
+    width:200px;
+  }
+  .container{
+    margin-right:25px;
+    margin-top:15px;
   }
 }
